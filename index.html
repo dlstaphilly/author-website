@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Lydon-Staley</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .author-photo {
+      width: 180px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .about p {
+      margin-bottom: 1rem;
+    }
+    .contact h2 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.75rem;
+      background-color: #111;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #444;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #333;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <img src="author-photo.jpg" alt="Author photo of David Lydon-Staley" class="author-photo" />
+      <h1>David Lydon-Staley</h1>
+      <p class="subtitle">Fiction Writer & Assistant Professor of Communication</p>
+    </section>
+
+    <section class="about">
+      <p>David Lydon-Staley is a fiction writer represented by Jim McCarthy at Dystel, Goderich & Bourret, LLC. His work explores queer identity, intimacy, and the quiet moments that shape relationships. Often grounded in place, especially Ireland and Philadelphia, his fiction blends humor and heartache, and features characters navigating the space between connection and solitude.</p>
+      <p>His short stories appear in <a href="https://www.cleavermagazine.com/prodigal-sun-by-david-lydon-staley/" target="_blank">Cleaver Magazine</a> and <a href="https://www.amazon.com/Jonathan-Issue-08-Journal-Fiction/dp/1937420949" target="_blank">Jonathan: A Queer Fiction Journal</a>. You can find him talking about books he loves and the Grand Duchess Anastasia (AKA Stacey the Pug) on TikTok <a href="https://www.tiktok.com/@dlstaphilly" target="_blank">@dlstaphilly</a>.</p>
+      <p>Originally from Galway, Ireland, David lives in Philadelphia, where he is pursuing an M.F.A. in Creative Writing at Drexel University and is also an Assistant Professor of Communication at the University of Pennsylvania. His academic research explores curiosity, emotion dynamics, and substance use in daily life, with work appearing in <em>Nature Human Behavior</em>, <em>Science Advances</em>, and <em>Nature Neuroscience</em>.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Follow on TikTok: <a href="https://www.tiktok.com/@dlstaphilly" target="_blank">@dlstaphilly</a></p>
+    </footer>
+  </main>
+</body>
+</html>
